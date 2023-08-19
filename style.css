@@ -1,12 +1,23 @@
 body {
     background: #cccccc;
-};
+}
 
 .header-text {
-    display: inline-block;
+    display: block;
+    padding-top: 50px;
+}
+
+.title {
+    text-align: center;
+    margin: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    color: red;
 }
 
 .main-body {
     display: inline-block;
     margin-top: 50px;
-};
+}
