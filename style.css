@@ -1,0 +1,12 @@
+body {
+    background: #cccccc;
+};
+
+.header-text {
+    display: inline-block;
+}
+
+.main-body {
+    display: inline-block;
+    margin-top: 50px;
+};
