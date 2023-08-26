@@ -13,6 +13,9 @@ body {
 .logo {
     float: left;
     margin: auto;
+    margin-left: 25px;
+    margin-top: 12px;
+    color: white;
 }
 
 .nav-list {
@@ -29,12 +32,12 @@ body {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     text-decoration: none;
 }
 
 .nav-list > li > a:hover, .dropdown:hover .dropbutton {
-    background-color: cyan;
+    background-color: #444444;
 }
 
 li.dropdown {
@@ -44,7 +47,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #333333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
     z-index: 1;
@@ -52,7 +55,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -60,19 +63,24 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #222222;
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
+.header {
+    padding: 100px 0px;
+    background: black;
+}
+
 .header-text {
     display: block;
-    padding: 30px 20px 20px 20px;
+    font-size: 30px;
+    padding: 100px;
     margin: auto;
-    margin-top: 50px;
     background-color: lightblue;
     width: 50%;
     border: 5px dashed red;
@@ -82,7 +90,7 @@ li.dropdown {
 .title {
     text-align: center;
     margin: 0px;
-    text-decoration: overline green dotted 2px;
+    text-decoration: underline black 5px;
 }
 
 .subtitle {
@@ -91,15 +99,48 @@ li.dropdown {
     text-shadow: 1px 1px 3px red, 1px 1px 3px blue;
 }
 
-.main-body {
-    display: inline-block;
-    margin-top: 50px;
-}
-
 a { 
-    color: navy;
+    color: cyan;
 }
 
 a:hover {
     color: gold;
+}
+
+.main-body {
+    display: block;
+    margin: 100px 0px;;
+}
+
+.headline {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.body-text {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.image-item {
+    color: white;
+    padding: 100px;
+    background-color: #666666;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    padding: 40px 100px;
+    background-color: #333333;
+    color: white;
 }
